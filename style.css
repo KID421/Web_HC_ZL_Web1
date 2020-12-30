@@ -14,10 +14,19 @@
     margin: 150px auto 0;
     padding: 250px 70px 50px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    /* 轉場：轉場時間 */
+    transition: 0.8s;
+}
+
+/* 選取器:hover - 滑入元素後的樣式 */
+#card:hover {
+    /* 變形：尺寸(倍數) */
+    transform: scale(1.1);
 }
 
 #content {
     background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
     color: gold;
     padding: 30px 20px;
 }
@@ -39,10 +48,20 @@ li {
 }
 
 footer {
-    text-align: center;
+    /* fz */
     font-size: 100px;
+    /* tac */
+    text-align: center;
+    /* ls */
     letter-spacing: 150px;
+    /* pl */
     padding-left: 150px;
-    color: rgba(0, 0, 0, 0.05);
-    margin-top: 50px;
+    /* mt */
+    margin-top: 20px;
+    /* c */
+    color: gold;
+}
+
+body {
+    background: #252525;
 }
